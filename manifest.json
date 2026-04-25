@@ -8,5 +8,9 @@
      "matches": ["*://*.crunchyroll.com/*"],
      "js": ["content.js"]
    }
- ]
+ ],
+    "background": {
+      "service_worker" : "background.js",
+      "type" : "module"
+    }
 }
