@@ -1,5 +1,6 @@
 // Inicia un bucle que ejecuta el Callback cada X milisegundos.
 // Devuelve un ID único para que no pierdas el rastro del proceso.
+
 let idIteracion = setInterval( () => {
     // Lógica aquí
     const video = document.querySelector('video');
